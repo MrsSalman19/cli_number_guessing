@@ -5,7 +5,7 @@ const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
         type: "number",
-        message: "Plz guess a Number",
+        message: "Plz guess a Number from 0 t0 6",
     },
 ]);
 if (answers.userGuessedNumber === randomNumber) {
